@@ -27,6 +27,18 @@
   border-radius: 0 0.4rem 0.4rem 0;
 }
 
+.bg-def{
+  background: #3F83F8;
+}
+
+.bg-mid{
+  background: #5BC941;
+}
+
+.bg-fw{
+  background: #f85836;
+}
+
 .player-info {
   background: #1c1c1c;
   padding: 0.4rem;

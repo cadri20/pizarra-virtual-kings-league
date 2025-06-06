@@ -1,7 +1,7 @@
 <div cdkDrag class="player-card position-relative text-white">
     <img [src]="teamLogoUrl | async" class="team-logo" alt="Team Logo">
     <img class="player-image" [src]="player.imageUrl" alt="{{ player.name }}">
-    <div class="position-badge">
+    <div class="position-badge" [ngClass]="{'bg-def': player.positionCode === 'DEF', 'bg-mid': player.positionCode === 'MED', 'bg-fw': player.positionCode === 'DEL'}">
         {{player.positionCode}}
     </div>
 

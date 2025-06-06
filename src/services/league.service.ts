@@ -32,7 +32,7 @@ export class LocalLeagueService extends LeagueService {
             { id: 2, name: 'Team B', imageUrl: 'https://example.com/team-b.png', leagueId: 1 }
         ];
         this.players = [
-            { id: 1, imageUrl: 'https://kingsleague.pro/_ipx/s_128x180/https://kingsleague-cdn.kama.football/account/production/seasonTeamPlayer/23a615f1-b278-42b3-956e-e3fcaf12511c/161228500.png', positionCode: 'DEF', name: 'Aleix Hernando', teamId: 1 },
+            { id: 1, imageUrl: 'https://kingsleague.pro/_ipx/s_128x180/https://kingsleague-cdn.kama.football/account/production/seasonTeamPlayer/23a615f1-b278-42b3-956e-e3fcaf12511c/161228500.png', positionCode: 'MED', name: 'Aleix Hernando', teamId: 1 },
             { id: 2, imageUrl: 'https://kingsleague.pro/_ipx/s_128x180/https://kingsleague-cdn.kama.football/account/production/seasonTeamPlayer/d62660b1-fb86-4d5c-a181-62fa79754b57/871892684.png', positionCode: 'DEL', name: 'Kilian Onorato', teamId: 1 },
             { id: 3, imageUrl: 'https://kingsleague.pro/_ipx/s_128x180/https://kingsleague-cdn.kama.football/account/production/seasonTeamPlayer/2877fdf4-c7c9-40d6-871f-b0d5de6f779b/926963455.png', positionCode: 'DEL', name: 'Mario Reyes', teamId: 1 },
             { id: 4, imageUrl: 'https://kingsleague.pro/_ipx/s_128x180/https://kingsleague-cdn.kama.football/account/production/seasonTeamPlayer/2877fdf4-c7c9-40d6-871f-b0d5de6f779b/926963455.png', positionCode: 'DEL', name: 'Mario Reyes', teamId: 2 }

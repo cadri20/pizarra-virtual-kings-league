@@ -49,5 +49,8 @@ export class Board implements OnInit{
       this.playersOnBoard.push(player);
     }
   }
+  deletePlayerFromBoard(player: Player) {
+    this.playersOnBoard = this.playersOnBoard.filter(p => p.id !== player.id);
+  }
 
 }

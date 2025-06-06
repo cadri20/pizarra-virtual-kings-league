@@ -51,7 +51,7 @@
 
     <div class="field-background d-flex justify-content-center align-items-center vh-100">
   @for(player of playersOnBoard; track player) {
-        <app-player-card class="position-absolute" [player]="player"></app-player-card>
+        <app-player-card class="position-absolute" [player]="player" (deletePlayerEvent)="deletePlayerFromBoard($event)"></app-player-card>
         }
     
 </div>

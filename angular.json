@@ -22,7 +22,11 @@
               }
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/bootstrap.min.css"
+            ],
+            "scripts": [
+              "src/bootstrap.bundle.min.js"
             ]
           },
           "configurations": {

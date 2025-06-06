@@ -1,0 +1,12 @@
+<div cdkDrag class="player-card position-relative text-white">
+    <img [src]="teamLogoUrl | async" class="team-logo" alt="Team Logo">
+    <img class="player-image" [src]="player.imageUrl" alt="{{ player.name }}">
+    <div class="position-badge">
+        {{player.positionCode}}
+    </div>
+
+    <div class="player-info text-center">
+        {{player.name}}
+    </div>
+    <button class="btn-close-icon">x</button>   
+</div>

@@ -1,0 +1,62 @@
+<div class="flex-column">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle width-medium" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                @if(selectedLeague) {
+                {{ selectedLeague.name }}
+                } @else {
+                Selecciona una liga
+                }
+            </button>
+            <ul class="dropdown-menu">
+                @for(league of leagues | async; track league) {
+                <li><a class="dropdown-item" href="#" (click)="selectLeague(league)">{{ league.name }}</a></li>
+                }
+            </ul>
+        </div>
+
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle width-medium" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                @if(selectedTeam) {
+                {{ selectedTeam.name }}
+                } @else {
+                Selecciona un equipo
+                }
+            </button>
+            <ul class="dropdown-menu">
+                @for(team of teams | async; track team) {
+                <li><a class="dropdown-item" href="#" (click)="selectTeam(team)">{{ team.name }}</a></li>
+                }
+            </ul>
+        </div>
+
+        <div class="dropdown">
+            <button class="btn btn-success dropdown-toggle width-medium" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                @if(selectedPlayer) {
+                {{ selectedPlayer.name }}
+                } @else {
+                Selecciona un jugador
+                }
+            </button>
+            <ul class="dropdown-menu">
+                @for(player of players | async; track player) {
+                <li><a class="dropdown-item" href="#" (click)="addPlayerToBoard(player)">{{ player.name }}</a></li>
+                }
+            </ul>
+        </div>
+    </div>
+
+    <div class="field-background d-flex justify-content-center align-items-center vh-100">
+  @for(player of playersOnBoard; track player) {
+        <app-player-card class="position-absolute" [player]="player"></app-player-card>
+        }
+    
+</div>
+
+
+    
+            
+</div>

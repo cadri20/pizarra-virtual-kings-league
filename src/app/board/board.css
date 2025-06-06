@@ -1,0 +1,11 @@
+.field-background {
+  background-image: url('https://media.istockphoto.com/id/1142584719/es/vector/campo-de-f%C3%BAtbol-de-textura-realista-de-un-c%C3%A9sped-verde-antecedentes-de-f%C3%BAtbol.jpg?s=612x612&w=0&k=20&c=bb3rIa7NMNIzlaNt7z2X320gFbPDF8uZwcLc2R1DVFo=');
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  width: 90vw;
+}
+
+.width-medium{
+    width: 200px;
+}

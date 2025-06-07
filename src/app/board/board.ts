@@ -25,11 +25,10 @@ export class Board implements OnInit{
   constructor(
     private readonly leagueService: LeagueService
   ){
-    this.leagues = this.leagueService.getLeagues();
   }
 
   async ngOnInit() {
-    
+    this.leagues = this.leagueService.getLeagues();
   }
 
   selectLeague(league: League) {

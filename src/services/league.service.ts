@@ -2,6 +2,8 @@ import { Injectable } from "@angular/core";
 import { Player } from "../models/player.model";
 import { Team } from "../models/team.model";
 import { League } from "../models/league.model";
+import { HttpClient } from "@angular/common/http";
+import { firstValueFrom } from "rxjs";
 
 export abstract class LeagueService {
     abstract getLeagues(): Promise<League[]>;
@@ -20,26 +22,28 @@ export class LocalLeagueService extends LeagueService {
     private teams: Team[] = [];
     private players: Player[] = [];
 
-    constructor() {
+    constructor(private http: HttpClient) {
         super();
-        // Initialize with some dummy data
-        this.leagues = [
-            { id: 1, name: 'Kings League', imageUrl: 'https://kingsleague.pro/_ipx/s_256x256/kama/production/team/27891359.png', country: 'England', lastUpdated: new Date() },
-            { id: 2, name: 'La Liga', imageUrl: 'https://kingsleague.pro/_ipx/s_256x256/kama/production/team/27891359.png', country: 'Spain', lastUpdated: new Date() }
-        ];
-        this.teams = [
-            { id: 1, name: 'Ultimate Mostoles', imageUrl: 'https://kingsleague.pro/_ipx/s_256x256/kama/production/team/27891359.png', leagueId: 1 },
-            { id: 2, name: 'Team B', imageUrl: 'https://example.com/team-b.png', leagueId: 1 }
-        ];
-        this.players = [
-            { id: 1, imageUrl: 'https://kingsleague.pro/_ipx/s_128x180/https://kingsleague-cdn.kama.football/account/production/seasonTeamPlayer/23a615f1-b278-42b3-956e-e3fcaf12511c/161228500.png', positionCode: 'MED', name: 'Aleix Hernando', teamId: 1 },
-            { id: 2, imageUrl: 'https://kingsleague.pro/_ipx/s_128x180/https://kingsleague-cdn.kama.football/account/production/seasonTeamPlayer/d62660b1-fb86-4d5c-a181-62fa79754b57/871892684.png', positionCode: 'DEL', name: 'Kilian Onorato', teamId: 1 },
-            { id: 3, imageUrl: 'https://kingsleague.pro/_ipx/s_128x180/https://kingsleague-cdn.kama.football/account/production/seasonTeamPlayer/2877fdf4-c7c9-40d6-871f-b0d5de6f779b/926963455.png', positionCode: 'DEL', name: 'Mario Reyes', teamId: 1 },
-            { id: 4, imageUrl: 'https://kingsleague.pro/_ipx/s_128x180/https://kingsleague-cdn.kama.football/account/production/seasonTeamPlayer/2877fdf4-c7c9-40d6-871f-b0d5de6f779b/926963455.png', positionCode: 'DEL', name: 'Mario Reyes', teamId: 2 }
-        ];
+        
+    }
+
+    async loadData(){
+        try {
+            ;
+            this.teams = await firstValueFrom(this.http.get<Team[]>('/assets/data/teams.json'));
+            this.players = await firstValueFrom(this.http.get<Player[]>('/assets/data/players.json'));
+        } catch (error) {
+            console.error('Error loading data:', error);
+            throw new Error('Failed to load data');
+        }
+
     }
 
     async getLeagues(): Promise<League[]> {
+        if(this.leagues.length === 0) {
+            this.leagues = await firstValueFrom(this.http.get<League[]>('/assets/data/leagues.json'))
+        }
+
         return this.leagues;
     }
 
@@ -52,6 +56,10 @@ export class LocalLeagueService extends LeagueService {
     }
 
     async getTeamsByLeague(leagueId: number): Promise<Team[]> {
+        if (this.teams.length === 0) {
+            this.teams = await firstValueFrom(this.http.get<Team[]>('/assets/data/teams.json'));
+        }
+
         const teams = this.teams.filter(t => t.leagueId === leagueId);
         if (teams.length === 0) {
             throw new Error(`No teams found for league with id ${leagueId}`);
@@ -60,7 +68,12 @@ export class LocalLeagueService extends LeagueService {
     }
 
     async getPlayersByLeague(leagueId: string): Promise<Player[]> {
+        if (this.players.length === 0) {
+            this.players = await firstValueFrom(this.http.get<Player[]>('/assets/data/players.json'));
+        }
+        
         const players = this.players.filter(p => p.teamId.toString() === leagueId);
+
         if (players.length === 0) {
             throw new Error(`No players found for league with id ${leagueId}`);
         }
@@ -87,7 +100,11 @@ export class LocalLeagueService extends LeagueService {
         return Promise.resolve(team);
     }
 
-    override getPlayersByTeam(teamid: number): Promise<Player[]> {
+    override async getPlayersByTeam(teamid: number): Promise<Player[]> {
+        if (this.players.length === 0) {
+            this.players = await firstValueFrom(this.http.get<Player[]>('/assets/data/players.json'));
+        }
+        
         const players = this.players.filter(p => p.teamId === teamid);
         if (players.length === 0) {
             throw new Error(`No players found for team with id ${teamid}`);

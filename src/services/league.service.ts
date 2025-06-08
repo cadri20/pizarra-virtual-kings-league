@@ -8,8 +8,8 @@ import { firstValueFrom } from "rxjs";
 export abstract class LeagueService {
     abstract getLeagues(): Promise<League[]>;
     abstract getLeagueById(leagueId: string): Promise<League>;
-    abstract getTeamsByLeague(leagueId: number): Promise<Team[]>;
-    abstract getPlayersByTeam(teamId: number): Promise<Player[]>;
+    abstract getTeamsByLeague(leagueId: string): Promise<Team[]>;
+    abstract getPlayersByTeam(teamId: string): Promise<Player[]>;
     abstract getPlayerById(playerId: string): Promise<Player>;
     abstract getTeamByPlayer(playerId: number): Promise<Team>;
 }
@@ -55,7 +55,7 @@ export class LocalLeagueService extends LeagueService {
         return league;
     }
 
-    async getTeamsByLeague(leagueId: number): Promise<Team[]> {
+    async getTeamsByLeague(leagueId: string): Promise<Team[]> {
         if (this.teams.length === 0) {
             this.teams = await firstValueFrom(this.http.get<Team[]>('/assets/data/teams.json'));
         }
@@ -100,7 +100,7 @@ export class LocalLeagueService extends LeagueService {
         return Promise.resolve(team);
     }
 
-    override async getPlayersByTeam(teamid: number): Promise<Player[]> {
+    override async getPlayersByTeam(teamid: string): Promise<Player[]> {
         if (this.players.length === 0) {
             this.players = await firstValueFrom(this.http.get<Player[]>('/assets/data/players.json'));
         }

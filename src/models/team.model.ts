@@ -2,5 +2,5 @@ export interface Team{
     id: string;
     name: string;
     imageUrl: string;
-    leagueId: number;
+    leagueId: string;
 }

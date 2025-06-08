@@ -41,11 +41,14 @@ export class Board implements OnInit{
     this.selectedTeam = team;
   }
 
-  addPlayerToBoard(player: Player) {
+  selectPlayer(player: Player){
     this.selectedPlayer = player;
-    
-    if (!this.playersOnBoard.some(p => p.id === player.id)) {
-      this.playersOnBoard.push(player);
+  }
+
+  addPlayerToBoard() {    
+
+    if (!this.playersOnBoard.some(p => p.id === this.selectedPlayer.id)) {
+      this.playersOnBoard.push(this.selectedPlayer);
     }
   }
   deletePlayerFromBoard(player: Player) {

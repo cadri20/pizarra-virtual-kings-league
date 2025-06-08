@@ -1,5 +1,5 @@
 .player-card {
-  width: 150px;
+  width: 170px;
   border-radius: 1rem;
   overflow: hidden;
   background: #1c1c1c;
@@ -44,15 +44,20 @@
   background: #f85836;
 }
 
+.bg-gk{
+  background: #F8D338;
+}
+
 .player-info {
   background: #1c1c1c;
   padding: 0.4rem;
   font-weight: bold;
   font-size: 1rem;
 }
+
 .team-logo {
   position: absolute;
-  top: 30px;
+  top: 40px;
   left: 6px;
   width: 30px;
   height: 30px;
@@ -62,8 +67,8 @@
 
 .btn-close-icon {
   position: absolute;
-  bottom: 5px;
-  right: 5px;
+  top: 5px;;
+  left: 5px;
   background: white;
   border: none;
   color: black;

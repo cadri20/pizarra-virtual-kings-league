@@ -143,6 +143,18 @@
         "imageUrl": "https://kingsleague.pro/_ipx/s_100x100/kama/production/team/572359116.png",
         "leagueId": "kings-league-wc"
     },
+    {
+        "id": "180-miami-7",
+        "name": "Miami 7",
+        "imageUrl": "https://kingsleague.pro/_ipx/s_176x176/kama/production/club/dd35d248-af57-4c32-a061-f47794313fa9/15722558.png",
+        "leagueId": "kings-league-wc"
+    },
+    {
+        "id": "50-furia-fc",
+        "name": "Furia FC",
+        "imageUrl": "https://kingsleague.pro/_ipx/s_256x256/kama/production/team/248545336.png",
+        "leagueId": "kings-league-wc"
+    },
     { 
         "id": "7-ultimate-mostoles", 
         "name": "Ultimate Mostoles", 
@@ -165,6 +177,18 @@
         "id": "8-xbuyer-team",
         "name": "xBuyer Team",
         "imageUrl": "https://kingsleague.pro/_ipx/s_256x256/kama/production/team/928519974.png",
+        "leagueId": "kings-league-wc"
+    },
+    {
+        "id": "189-futbolistas-locos-fc",
+        "name": "Futbolistas Locos FC",
+        "imageUrl": "https://kingsleague.pro/_ipx/s_100x100/kama/production/team/711324762.png",
+        "leagueId": "kings-league-wc"
+    },
+    {
+        "id": "6-los-troncos-fc",
+        "name": "Los Troncos FC",
+        "imageUrl": "https://kingsleague.pro/_ipx/s_100x100/kama/production/team/image/183436923.png",
         "leagueId": "kings-league-wc"
     }
 

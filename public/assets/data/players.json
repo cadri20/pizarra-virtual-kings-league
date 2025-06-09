@@ -273,6 +273,97 @@
     "teamId": "179-la-capital-cf"
   },
   {
+    "id": 243,
+    "imageUrl": "https://kingsleague.pro/_ipx/s_256x360/https://kingsleague-cdn.kama.football/account/production/seasonTeamPlayer/b3c0285a-b6d8-4a57-9266-96f7bd94b69b/563091626.png",
+    "positionCode": "DEF",
+    "name": "Antonio Pelegrín",
+    "teamId": "180-miami-7"
+  },
+  {
+    "id": 71201,
+    "imageUrl": "https://kingsleague.pro/_ipx/s_256x360/https://kingsleague-cdn.kama.football/account/production/seasonTeamPlayer/0d5a7b18-9095-4061-81bc-3f6d0510b34a/953134738.png",
+    "positionCode": "MED",
+    "name": "David Ortiz",
+    "teamId": "180-miami-7"
+  },
+  {
+    "id": 80449,
+    "imageUrl": "https://kingsleague.pro/_ipx/s_256x360/https://kingsleague-cdn.kama.football/account/production/seasonTeamPlayer/c96d55a6-34c7-442b-9cc4-8299bf2e611f/490849851.png",
+    "positionCode": "POR",
+    "name": "Alexander Bertrand",
+    "teamId": "180-miami-7"
+  },
+  {
+    "id": 80450,
+    "imageUrl": "https://kingsleague.pro/_ipx/s_256x360/https://kingsleague-cdn.kama.football/account/production/player/ddd270e3-4d59-4af8-bd84-d9e810bd9178/605240458.png",
+    "positionCode": "MED",
+    "name": "Juan Ramírez",
+    "teamId": "180-miami-7"
+  },
+  {
+    "id": 80451,
+    "imageUrl": "https://kingsleague.pro/_ipx/s_256x360/https://kingsleague-cdn.kama.football/account/production/player/02adab0e-cc34-4c1b-9fc6-dbd217fa4c40/493039979.png",
+    "positionCode": "DEL",
+    "name": "Luis Peralta",
+    "teamId": "180-miami-7"
+  },
+  {
+    "id": 80452,
+    "imageUrl": "https://kingsleague.pro/_ipx/s_256x360/https://kingsleague-cdn.kama.football/account/production/player/b07a1734-a2d4-4828-8b2e-0ca1a00cda1b/566442417.png",
+    "positionCode": "MED",
+    "name": "Zyan Ferreira",
+    "teamId": "180-miami-7"
+  },
+  {
+    "id": 80453,
+    "imageUrl": "https://kingsleague.pro/_ipx/s_256x360/https://kingsleague-cdn.kama.football/account/production/player/deb3e269-0886-4f29-adcf-4c4b1d811b0a/22037910.png",
+    "positionCode": "DEL",
+    "name": "Luiz Morales",
+    "teamId": "180-miami-7"
+  },
+  {
+    "id": 80454,
+    "imageUrl": "https://kingsleague.pro/_ipx/s_256x360/https://kingsleague-cdn.kama.football/account/production/player/d97ee2ae-05af-46a4-a5f9-aebb065d5040/993819585.png",
+    "positionCode": "DEF",
+    "name": "James Valkenburg",
+    "teamId": "180-miami-7"
+  },
+  {
+    "id": 80455,
+    "imageUrl": "https://kingsleague.pro/_ipx/s_256x360/https://kingsleague-cdn.kama.football/account/production/player/4b6060bb-4ea2-4f8b-ada2-5f7de63cd8bf/815330959.png",
+    "positionCode": "DEL",
+    "name": "Josu Rodríguez",
+    "teamId": "180-miami-7"
+  },
+  {
+    "id": 13,
+    "imageUrl": "https://kingsleague.pro/_ipx/s_254x350/kama/production/seasonTeamPlayer/1b5827b1-4d8f-41bb-a06a-3460bc182519/484987284.png",
+    "positionCode": "POR",
+    "name": "Marc Briones",
+    "teamId": "180-miami-7"
+  },
+  {
+    "id": 226,
+    "imageUrl": "https://kingsleague.pro/_ipx/s_254x350/kama/production/seasonTeamPlayer/7be15898-f179-4a55-9439-7c25ad6a9b8c/351149149.png",
+    "positionCode": "MED",
+    "name": "Aitor Vives",
+    "teamId": "180-miami-7"
+  },
+  {
+    "id": 269,
+    "imageUrl": "https://kingsleague.pro/_ipx/s_254x350/kama/production/seasonTeamPlayer/a8f018da-e994-465a-a5e9-8375dafb0636/28836987.png",
+    "positionCode": "MED",
+    "name": "Jero Martín",
+    "teamId": "180-miami-7"
+  },
+  {
+    "id": 71743,
+    "imageUrl": "https://kingsleague.pro/_ipx/s_254x350/kama/production/seasonTeamPlayer/7a4524e1-ef7b-40f3-851d-7780331b9477/420555975.png",
+    "positionCode": "MED",
+    "name": "Juan Antonio Gallego",
+    "teamId": "180-miami-7"
+  },
+  {
     "id": 44322,
     "imageUrl": "https://kingsleague.pro/_ipx/s_256x360/https://kingsleague-cdn.kama.football/account/production/player/c4801bd0-18fa-439e-9fae-9f2521995387/824265545.png",
     "positionCode": "MED",
@@ -728,6 +819,97 @@
     "teamId": "4-jijantes-fc"
   },
   {
+    "id": 18,
+    "imageUrl": "https://kingsleague.pro/_ipx/s_256x360/https://kingsleague-cdn.kama.football/account/production/seasonTeamPlayer/1f35275f-d931-44ce-8bc6-39ddd6b4b2b9/500718287.png",
+    "positionCode": "DEF",
+    "name": "Víctor Torres",
+    "teamId": "6-los-troncos-fc"
+  },
+  {
+    "id": 42,
+    "imageUrl": "https://kingsleague.pro/_ipx/s_256x360/https://kingsleague-cdn.kama.football/account/production/seasonTeamPlayer/ee0c03f1-a47b-4b8b-95c7-c5eebb563340/66097139.png",
+    "positionCode": "DEL",
+    "name": "Oriol Boada",
+    "teamId": "6-los-troncos-fc"
+  },
+  {
+    "id": 47,
+    "imageUrl": "https://kingsleague.pro/_ipx/s_256x360/https://kingsleague-cdn.kama.football/account/production/seasonTeamPlayer/803583c9-64de-4386-a079-c891db069ed4/472901518.png",
+    "positionCode": "MED",
+    "name": "Lluís Alsina",
+    "teamId": "6-los-troncos-fc"
+  },
+  {
+    "id": 60,
+    "imageUrl": "https://kingsleague.pro/_ipx/s_256x360/https://kingsleague-cdn.kama.football/account/production/seasonTeamPlayer/a295c24d-d176-4b0b-b287-8105d2d35337/622266033.png",
+    "positionCode": "DEF",
+    "name": "David Soriano",
+    "teamId": "6-los-troncos-fc"
+  },
+  {
+    "id": 94,
+    "imageUrl": "https://kingsleague.pro/_ipx/s_256x360/https://kingsleague-cdn.kama.football/account/production/seasonTeamPlayer/c0e7fa63-69dd-48b1-8f56-5ba28fab2f0a/873881779.png",
+    "positionCode": "DEF",
+    "name": "Àlex Gutiérrez",
+    "teamId": "6-los-troncos-fc"
+  },
+  {
+    "id": 272,
+    "imageUrl": "https://kingsleague.pro/_ipx/s_256x360/https://kingsleague-cdn.kama.football/account/production/seasonTeamPlayer/9228a2c9-5745-4091-a82b-9042970641e7/381879349.png",
+    "positionCode": "DEF",
+    "name": "Álex Cubedo",
+    "teamId": "6-los-troncos-fc"
+  },
+  {
+    "id": 278,
+    "imageUrl": "https://kingsleague.pro/_ipx/s_256x360/https://kingsleague-cdn.kama.football/account/production/seasonTeamPlayer/0d66af65-eb39-4d09-85ee-8d51b2cfe7e9/569702847.png",
+    "positionCode": "POR",
+    "name": "Eloy Amoedo",
+    "teamId": "6-los-troncos-fc"
+  },
+  {
+    "id": 310,
+    "imageUrl": "https://kingsleague.pro/_ipx/s_256x360/https://kingsleague-cdn.kama.football/account/production/seasonTeamPlayer/0b92266e-1362-448f-8f46-76a1cc67aedd/876050375.png",
+    "positionCode": "MED",
+    "name": "Carlos Ferres",
+    "teamId": "6-los-troncos-fc"
+  },
+  {
+    "id": 58132,
+    "imageUrl": "https://kingsleague.pro/_ipx/s_256x360/https://kingsleague-cdn.kama.football/account/production/seasonTeamPlayer/8c5c511c-6c81-444d-8ad4-8993744279ac/550977421.png",
+    "positionCode": "POR",
+    "name": "Pol Agustí",
+    "teamId": "6-los-troncos-fc"
+  },
+  {
+    "id": 63016,
+    "imageUrl": "https://kingsleague.pro/_ipx/s_256x360/https://kingsleague-cdn.kama.football/account/production/seasonTeamPlayer/743c84a3-57ab-4e16-a33a-e0a78d6c9c12/573671653.png",
+    "positionCode": "DEL",
+    "name": "Diego Jiménez",
+    "teamId": "6-los-troncos-fc"
+  },
+  {
+    "id": 68,
+    "imageUrl": "https://kingsleague.pro/_ipx/s_254x350/kama/production/seasonTeamPlayer/e34343b0-fcb6-485a-93f3-f5390acecc49/991485925.png",
+    "positionCode": "DEF",
+    "name": "Carles Planas",
+    "teamId": "6-los-troncos-fc"
+  },
+  {
+    "id": 69,
+    "imageUrl": "https://kingsleague.pro/_ipx/s_254x350/kama/production/seasonTeamPlayer/3a4224ac-2d80-422d-a8f7-bc6c773b5801/542324836.png",
+    "positionCode": "MED",
+    "name": "Joan Verdú",
+    "teamId": "6-los-troncos-fc"
+  },
+  {
+    "id": 215,
+    "imageUrl": "https://kingsleague.pro/_ipx/s_254x350/kama/production/seasonTeamPlayer/9f8ee52e-ae8a-4cbe-b1ac-c84df27ef346/774545289.png",
+    "positionCode": "MED",
+    "name": "Gerard Nolla",
+    "teamId": "6-los-troncos-fc"
+  },
+  {
     "id": 31,
     "imageUrl": "https://kingsleague.pro/_ipx/s_256x360/https://kingsleague-cdn.kama.football/account/production/player/77e76bc0-2a2f-4bcf-a058-784728292253/281376433.png",
     "positionCode": "MED",
@@ -995,7 +1177,7 @@
   },
   {
     "id": 933,
-    "imageUrl": "https://kingsleague.pro/_ipx/s_256x360/https://kingsleague-cdn.kama.football/account/production/player/387d075f-66af-42ff-87f8-e2668bcab705/896370827.png",
+    "imageUrl": "https://kingsleague.pro/_ipx/s_256x360/https://kingsleague-cdn.kama.football/account/production/seasonTeamPlayer/94520f05-5d06-4367-9aac-e24f43d50048/7217865.png",
     "positionCode": "POR",
     "name": "Luis Nava",
     "teamId": "39-galacticos-del-caribe"
@@ -1009,7 +1191,7 @@
   },
   {
     "id": 3616,
-    "imageUrl": "https://kingsleague.pro/_ipx/s_256x360/https://kingsleague-cdn.kama.football/account/production/player/038ae521-26a7-4cfa-8190-e5ceb797d93e/415200909.png",
+    "imageUrl": "https://kingsleague.pro/_ipx/s_256x360/https://kingsleague-cdn.kama.football/account/production/seasonTeamPlayer/22c122d5-bf18-42d5-b131-0dac78904c74/25352003.png",
     "positionCode": "POR",
     "name": "Moisés Dabbah",
     "teamId": "39-galacticos-del-caribe"
@@ -1085,6 +1267,13 @@
     "teamId": "39-galacticos-del-caribe"
   },
   {
+    "id": 67746,
+    "imageUrl": "https://kingsleague.pro/_ipx/s_254x350/kama/production/seasonTeamPlayer/17ca3b48-5975-4208-9555-e201f70831e9/493067440.png",
+    "positionCode": "MED",
+    "name": "Robert Vallribera",
+    "teamId": "39-galacticos-del-caribe"
+  },
+  {
     "id": 1006,
     "imageUrl": "https://kingsleague.pro/_ipx/s_256x360/https://kingsleague-cdn.kama.football/account/production/seasonTeamPlayer/05d40393-204e-4f7f-8cdb-623dfca85fdf/702650746.png",
     "positionCode": "MED",
@@ -1100,14 +1289,14 @@
   },
   {
     "id": 5295,
-    "imageUrl": "https://kingsleague.pro/_ipx/s_256x360/https://kingsleague-cdn.kama.football/account/production/player/7c0ce617-5ed9-49d6-ba91-8ad4315370b2/754885396.png",
+    "imageUrl": "https://kingsleague.pro/_ipx/s_256x360/https://kingsleague-cdn.kama.football/account/production/seasonTeamPlayer/56a9b98d-876f-487a-ac01-3eb3e6a5a362/833841671.png",
     "positionCode": "POR",
     "name": "Edgar Álvarez",
     "teamId": "41-los-chamos-fc"
   },
   {
     "id": 13773,
-    "imageUrl": "https://kingsleague.pro/_ipx/s_256x360/https://kingsleague-cdn.kama.football/account/production/player/aeed2af7-6d9e-49f9-b429-e67cd8f507aa/589831832.png",
+    "imageUrl": "https://kingsleague.pro/_ipx/s_256x360/https://kingsleague-cdn.kama.football/account/production/seasonTeamPlayer/cdbb431d-9534-4308-b232-c04bb8690d9c/19238779.png",
     "positionCode": "POR",
     "name": "Baruc Mateos",
     "teamId": "41-los-chamos-fc"
@@ -1152,6 +1341,13 @@
     "imageUrl": "https://kingsleague.pro/_ipx/s_256x360/https://kingsleague-cdn.kama.football/account/production/player/41803947-7bdf-4a50-b9e3-24542a39804a/735404074.png",
     "positionCode": "MED",
     "name": "Andrés Rugeles",
+    "teamId": "41-los-chamos-fc"
+  },
+  {
+    "id": 34691,
+    "imageUrl": "https://kingsleague.pro/_ipx/s_254x350/kama/production/seasonTeamPlayer/3c83f8b9-4b3a-4b9e-9ead-9ee46f850dbf/921584402.png",
+    "positionCode": "DEL",
+    "name": "Toni Alvarado",
     "teamId": "41-los-chamos-fc"
   },
   {
@@ -1387,7 +1583,7 @@
   },
   {
     "id": 55989,
-    "imageUrl": "https://kingsleague.pro/_ipx/s_256x360/https://kingsleague-cdn.kama.football/account/production/player/c91b1b8d-3795-41b8-bc89-a6f8ccfef7ba/755684491.png",
+    "imageUrl": "https://kingsleague.pro/_ipx/s_256x360/https://kingsleague-cdn.kama.football/account/production/player/2a075f45-6d55-4fe1-b4d6-3f824dbbf75a/883304316.png",
     "positionCode": "POR",
     "name": "Mirko Dario",
     "teamId": "85-boomers"
@@ -1415,9 +1611,16 @@
   },
   {
     "id": 64350,
-    "imageUrl": "https://kingsleague.pro/_ipx/s_256x360/https://kingsleague-cdn.kama.football/account/production/player/d7739a11-68b3-4457-9e83-2e3cb7fd2474/338501075.png",
+    "imageUrl": "https://kingsleague.pro/_ipx/s_256x360/https://kingsleague-cdn.kama.football/account/production/seasonTeamPlayer/baff59fa-4d93-4d13-bdbd-86d4841036c5/544890520.png",
     "positionCode": "POR",
     "name": "Vlad Caprianu",
+    "teamId": "85-boomers"
+  },
+  {
+    "id": 71754,
+    "imageUrl": "https://kingsleague.pro/_ipx/s_254x350/kama/production/seasonTeamPlayer/16ff9215-d9ca-4955-a2e9-36264016c6f0/212706075.png",
+    "positionCode": "DEL",
+    "name": "Nicola Loiodice",
     "teamId": "85-boomers"
   },
   {
@@ -1527,7 +1730,7 @@
   },
   {
     "id": 80112,
-    "imageUrl": "https://kingsleague.pro/_ipx/s_254x350/kama/production/player/15c83130-e19e-4e93-84e0-24869e8aebf7/577452170.png",
+    "imageUrl": "https://kingsleague.pro/_ipx/s_254x350/kama/production/seasonTeamPlayer/11041307-8a84-4fb5-ac2f-dd7b74b0e226/374820080.png",
     "positionCode": "DEL",
     "name": "Cosimo Chiricò",
     "teamId": "88-fc-zeta"
@@ -1897,6 +2100,13 @@
     "teamId": "168-desimpedidos-goti"
   },
   {
+    "id": 79961,
+    "imageUrl": "https://kingsleague.pro/_ipx/s_254x350/kama/production/seasonTeamPlayer/e664aff9-aa84-4089-a330-2432a963e757/169363444.png",
+    "positionCode": "MED",
+    "name": "Luis 'Luisinho' Alves",
+    "teamId": "168-desimpedidos-goti"
+  },
+  {
     "id": 68330,
     "imageUrl": "https://kingsleague.pro/_ipx/s_256x360/https://kingsleague-cdn.kama.football/account/production/player/77c4ed9d-2ed4-41ea-94ac-b210aef7c1d0/745856396.png",
     "positionCode": "MED",
@@ -1905,7 +2115,7 @@
   },
   {
     "id": 68692,
-    "imageUrl": "https://kingsleague.pro/_ipx/s_256x360/https://kingsleague-cdn.kama.football/account/production/player/697c9c92-db1d-4f29-bf64-5515fc970545/914470260.png",
+    "imageUrl": "https://kingsleague.pro/_ipx/s_256x360/https://kingsleague-cdn.kama.football/account/production/seasonTeamPlayer/3d15998a-664e-475b-9c07-8e7fe95928ce/387953170.png",
     "positionCode": "POR",
     "name": "Thiago de Oliveira",
     "teamId": "160-fluxo-fc"
@@ -1933,7 +2143,7 @@
   },
   {
     "id": 69775,
-    "imageUrl": "https://kingsleague.pro/_ipx/s_256x360/https://kingsleague-cdn.kama.football/account/production/player/42f58c13-9f29-4d52-99bc-f60784af2d81/177644525.png",
+    "imageUrl": "https://kingsleague.pro/_ipx/s_256x360/https://kingsleague-cdn.kama.football/account/production/player/cea030af-f801-4f46-aa7e-17e0ace04bf5/594981494.png",
     "positionCode": "POR",
     "name": "Julio Carvalho",
     "teamId": "160-fluxo-fc"
@@ -1986,6 +2196,97 @@
     "positionCode": "MED",
     "name": "Matheus 'Chaveirinho' da Cruz",
     "teamId": "160-fluxo-fc"
+  },
+  {
+    "id": 68187,
+    "imageUrl": "https://kingsleague.pro/_ipx/s_256x360/https://kingsleague-cdn.kama.football/account/production/player/c3f4895b-3615-4cff-a78e-0513e2147eae/790071649.png",
+    "positionCode": "DEL",
+    "name": "Guilherme Monagatti",
+    "teamId": "50-furia-fc"
+  },
+  {
+    "id": 68857,
+    "imageUrl": "https://kingsleague.pro/_ipx/s_256x360/https://kingsleague-cdn.kama.football/account/production/player/af9a904c-5b9a-4d4b-9a33-f8ba1be9f8b8/126893555.png",
+    "positionCode": "MED",
+    "name": "Caio Catroca",
+    "teamId": "50-furia-fc"
+  },
+  {
+    "id": 69089,
+    "imageUrl": "https://kingsleague.pro/_ipx/s_256x360/https://kingsleague-cdn.kama.football/account/production/player/7ffa23e8-7753-4431-9d63-d7b45b40af05/503278815.png",
+    "positionCode": "DEL",
+    "name": "Murillo Donato",
+    "teamId": "50-furia-fc"
+  },
+  {
+    "id": 69112,
+    "imageUrl": "https://kingsleague.pro/_ipx/s_256x360/https://kingsleague-cdn.kama.football/account/production/player/480c6a71-f0fd-487f-9beb-4ed9257d261d/627428321.png",
+    "positionCode": "MED",
+    "name": "Andrey Batata",
+    "teamId": "50-furia-fc"
+  },
+  {
+    "id": 69648,
+    "imageUrl": "https://kingsleague.pro/_ipx/s_256x360/https://kingsleague-cdn.kama.football/account/production/player/3ef0eee3-aad8-4b86-8973-939510949010/88239375.png",
+    "positionCode": "DEL",
+    "name": "Ryan Lima",
+    "teamId": "50-furia-fc"
+  },
+  {
+    "id": 70816,
+    "imageUrl": "https://kingsleague.pro/_ipx/s_256x360/https://kingsleague-cdn.kama.football/account/production/player/203fe462-e720-4cb2-82f6-436e8176f785/788544272.png",
+    "positionCode": "POR",
+    "name": "Matheus Ayosa",
+    "teamId": "50-furia-fc"
+  },
+  {
+    "id": 71032,
+    "imageUrl": "https://kingsleague.pro/_ipx/s_256x360/https://kingsleague-cdn.kama.football/account/production/player/e70b7b48-1849-4adc-84cb-3df8c45643e9/427261974.png",
+    "positionCode": "DEF",
+    "name": "João Pelegrini",
+    "teamId": "50-furia-fc"
+  },
+  {
+    "id": 71449,
+    "imageUrl": "https://kingsleague.pro/_ipx/s_256x360/https://kingsleague-cdn.kama.football/account/production/player/54e0e643-715e-479e-8934-f9ef4b144373/65925238.png",
+    "positionCode": "DEL",
+    "name": "Gabriel Pastuch",
+    "teamId": "50-furia-fc"
+  },
+  {
+    "id": 71542,
+    "imageUrl": "https://kingsleague.pro/_ipx/s_256x360/https://kingsleague-cdn.kama.football/account/production/player/715e9ed9-2abb-41d7-88c8-d5e6d24ce249/457428668.png",
+    "positionCode": "POR",
+    "name": "Victor Hugo",
+    "teamId": "50-furia-fc"
+  },
+  {
+    "id": 71665,
+    "imageUrl": "https://kingsleague.pro/_ipx/s_256x360/https://kingsleague-cdn.kama.football/account/production/player/1ae30e0c-2a9d-4c17-b9d6-329dadc588b5/872322659.png",
+    "positionCode": "MED",
+    "name": "Matheus Dedo",
+    "teamId": "50-furia-fc"
+  },
+  {
+    "id": 33904,
+    "imageUrl": "https://kingsleague.pro/_ipx/s_254x350/kama/production/player/a77941ce-bd43-4397-979e-fe87fc42df29/517056794.png",
+    "positionCode": "MED",
+    "name": "Jeffinho",
+    "teamId": "50-furia-fc"
+  },
+  {
+    "id": 33918,
+    "imageUrl": "https://kingsleague.pro/_ipx/s_254x350/kama/production/player/0e755ba9-ecee-4049-871a-3268a1c54ffa/708149.png",
+    "positionCode": "DEL",
+    "name": "Lipão",
+    "teamId": "50-furia-fc"
+  },
+  {
+    "id": 33932,
+    "imageUrl": "https://kingsleague.pro/_ipx/s_254x350/kama/production/player/ac1bf7fc-d2b6-4a0d-955e-d912f4ddc61c/560819837.png",
+    "positionCode": "DEL",
+    "name": "Leleti",
+    "teamId": "50-furia-fc"
   },
   {
     "id": 40400,
@@ -2052,7 +2353,7 @@
   },
   {
     "id": 80428,
-    "imageUrl": "https://kingsleague.pro/_ipx/s_256x360/https://kingsleague-cdn.kama.football/account/production/player/bfdc9a1a-b3a7-4b32-b147-c47fe6a149f3/573784904.png",
+    "imageUrl": "https://kingsleague.pro/_ipx/s_256x360/https://kingsleague-cdn.kama.football/account/production/seasonTeamPlayer/58d6463c-7b5e-4546-ae9b-1071d409af5c/255963239.png",
     "positionCode": "DEF",
     "name": "Ousmane Badji",
     "teamId": "52-f2r"
@@ -2153,6 +2454,13 @@
     "imageUrl": "https://kingsleague.pro/_ipx/s_254x350/kama/production/seasonTeamPlayer/9940e10f-4e06-4bce-921d-914dee017191/804957303.png",
     "positionCode": "MED",
     "name": "Guilherme Carvalho Feitosa",
+    "teamId": "171-karasu"
+  },
+  {
+    "id": 79566,
+    "imageUrl": "https://kingsleague.pro/_ipx/s_254x350/kama/production/seasonTeamPlayer/3d9bcf56-91e7-4962-b889-4cb9aa098f2c/606120236.png",
+    "positionCode": "DEL",
+    "name": "Mehdi Marin",
     "teamId": "171-karasu"
   },
   {
@@ -2434,6 +2742,90 @@
     "positionCode": "DEF",
     "name": "Tobias Schröck",
     "teamId": "186-era-colonia"
+  },
+  {
+    "id": 79633,
+    "imageUrl": "https://kingsleague.pro/_ipx/s_256x360/https://kingsleague-cdn.kama.football/account/production/seasonTeamPlayer/408441db-fad7-4b9d-8566-b3209bf8f553/147179220.png",
+    "positionCode": "POR",
+    "name": "Daniel Dreesen",
+    "teamId": "189-futbolistas-locos-fc"
+  },
+  {
+    "id": 79653,
+    "imageUrl": "https://kingsleague.pro/_ipx/s_256x360/https://kingsleague-cdn.kama.football/account/production/player/0f929fbc-3e09-4b20-bab3-96b5809cc83f/634399159.png",
+    "positionCode": "DEL",
+    "name": "Lordan Handanovic",
+    "teamId": "189-futbolistas-locos-fc"
+  },
+  {
+    "id": 79675,
+    "imageUrl": "https://kingsleague.pro/_ipx/s_256x360/https://kingsleague-cdn.kama.football/account/production/player/5a61f165-47c0-48e8-966d-b78e9f248a5d/194206295.png",
+    "positionCode": "DEF",
+    "name": "Timo Julian",
+    "teamId": "189-futbolistas-locos-fc"
+  },
+  {
+    "id": 79723,
+    "imageUrl": "https://kingsleague.pro/_ipx/s_256x360/https://kingsleague-cdn.kama.football/account/production/player/70d76ce8-7bb4-43fd-b1d1-cee1d165ae29/918448133.png",
+    "positionCode": "DEF",
+    "name": "Salvatore Giambra",
+    "teamId": "189-futbolistas-locos-fc"
+  },
+  {
+    "id": 79728,
+    "imageUrl": "https://kingsleague.pro/_ipx/s_256x360/https://kingsleague-cdn.kama.football/account/production/player/291f28b7-5040-45ed-8593-87472dcb58b5/664075879.png",
+    "positionCode": "DEF",
+    "name": "Salmin Rebronja",
+    "teamId": "189-futbolistas-locos-fc"
+  },
+  {
+    "id": 80040,
+    "imageUrl": "https://kingsleague.pro/_ipx/s_256x360/https://kingsleague-cdn.kama.football/account/production/player/26f88291-53ad-4d26-bf97-61d12348fbd3/156676406.png",
+    "positionCode": "MED",
+    "name": "Nico  Czichi",
+    "teamId": "189-futbolistas-locos-fc"
+  },
+  {
+    "id": 80497,
+    "imageUrl": "https://kingsleague.pro/_ipx/s_256x360/https://kingsleague-cdn.kama.football/account/production/player/63b78df9-7425-49ec-adba-2071b64f5c75/796336663.png",
+    "positionCode": "POR",
+    "name": "Gianluca Caruso",
+    "teamId": "189-futbolistas-locos-fc"
+  },
+  {
+    "id": 80498,
+    "imageUrl": "https://kingsleague.pro/_ipx/s_256x360/https://kingsleague-cdn.kama.football/account/production/player/2a744d49-f9b4-4bf2-8b22-655eb3b0ec98/831007124.png",
+    "positionCode": "MED",
+    "name": "Maurice Castel",
+    "teamId": "189-futbolistas-locos-fc"
+  },
+  {
+    "id": 80499,
+    "imageUrl": "https://kingsleague.pro/_ipx/s_256x360/https://kingsleague-cdn.kama.football/account/production/player/e07a3a01-d9c4-4484-8760-170f9ee2beaf/237410682.png",
+    "positionCode": "DEF",
+    "name": "Kingsley Helmut",
+    "teamId": "189-futbolistas-locos-fc"
+  },
+  {
+    "id": 79562,
+    "imageUrl": "https://kingsleague.pro/_ipx/s_254x350/kama/production/player/420d5619-0fda-4f6b-92f0-9e839658bbc6/729513918.png",
+    "positionCode": "MED",
+    "name": "Dennis Öztürk",
+    "teamId": "189-futbolistas-locos-fc"
+  },
+  {
+    "id": 80037,
+    "imageUrl": "https://kingsleague.pro/_ipx/s_254x350/kama/production/player/4fd4394e-f834-4a1a-ab3b-712e8918170f/436976135.png",
+    "positionCode": "MED",
+    "name": "Karim  Ay",
+    "teamId": "189-futbolistas-locos-fc"
+  },
+  {
+    "id": 80042,
+    "imageUrl": "https://kingsleague.pro/_ipx/s_254x350/kama/production/player/acc9907a-510e-4a26-b338-18b0eedd8d24/416530111.png",
+    "positionCode": "DEL",
+    "name": "Noah Can",
+    "teamId": "189-futbolistas-locos-fc"
   },
   {
     "id": 53033,

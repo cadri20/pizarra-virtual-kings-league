@@ -27,12 +27,14 @@
             ],
             "scripts": [
               "src/bootstrap.bundle.min.js"
-            ]
+            ],
+            "outputPath": "dist/pizarra-virtual-kings-league"
           },
           "configurations": {
             "production": {
               "budgets": [
                 {
+                  
                   "type": "initial",
                   "maximumWarning": "500kB",
                   "maximumError": "1MB"

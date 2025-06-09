@@ -60,7 +60,9 @@ export class LocalLeagueService extends LeagueService {
             this.teams = await firstValueFrom(this.http.get<Team[]>('/assets/data/teams.json'));
         }
 
-        const teams = this.teams.filter(t => t.leagueId === leagueId);
+        const teams = this.teams
+                          .filter(t => t.leagueId === leagueId)
+                          .sort((a, b) => a.name.localeCompare(b.name));
         if (teams.length === 0) {
             throw new Error(`No teams found for league with id ${leagueId}`);
         }
@@ -72,7 +74,9 @@ export class LocalLeagueService extends LeagueService {
             this.players = await firstValueFrom(this.http.get<Player[]>('/assets/data/players.json'));
         }
         
-        const players = this.players.filter(p => p.teamId.toString() === leagueId);
+        const players = this.players
+                        .filter(p => p.teamId.toString() === leagueId)
+                        .sort((a, b) => a.name.localeCompare(b.name));
 
         if (players.length === 0) {
             throw new Error(`No players found for league with id ${leagueId}`);
@@ -105,7 +109,9 @@ export class LocalLeagueService extends LeagueService {
             this.players = await firstValueFrom(this.http.get<Player[]>('/assets/data/players.json'));
         }
         
-        const players = this.players.filter(p => p.teamId === teamid);
+        const players = this.players
+                            .filter(p => p.teamId === teamid)
+                            .sort((a, b) => a.name.localeCompare(b.name));
         if (players.length === 0) {
             throw new Error(`No players found for team with id ${teamid}`);
         }
